@@ -95,6 +95,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    
 }
 .card {
     text-align: center;
@@ -181,15 +182,27 @@ body {
         margin-bottom: 30px;
     }
 }
-@media (max-width: 480px) {
-    .services-content {
-        flex-direction: column;
-
-
-    }
-}
 @media (max-width: 768px) {
     .services-content {
-        height: 260px;
+        display: grid;
+        flex-direction: column;
+        max-width: 400px;
+        flex: 2;
+        order: 2;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+}
+
+@media (max-width: 481px) {
+    .services-content {
+        display: grid;
+        flex-direction:column;
+        max-width: 400px;
+        flex: 1;
+        justify-content: center;
+        gap: 10px;
     }
 }
