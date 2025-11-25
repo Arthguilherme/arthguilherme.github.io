@@ -106,7 +106,7 @@ body {
     background-color: rgb(189, 189, 189);
 }
 #icones {
-    color: red;
+    color: greenyellow;
     font-size: 50px;
 }
 
@@ -115,7 +115,7 @@ body {
     text-align: center;
     color: white;
   }
-  
+
   
 @media (max-width: 900px) {
     .home {
