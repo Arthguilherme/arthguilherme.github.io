@@ -116,6 +116,7 @@ body {
     color: white;
   }
   
+  
 @media (max-width: 900px) {
     .home {
         flex-direction: column-reverse;
