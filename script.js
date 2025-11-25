@@ -29,7 +29,7 @@ function toggleTheme() {
         localStorage.setItem('theme','dark');
     }
 }
-
+themeToggle.addEventListener('click', toggleTheme);
 function loadSavedTheme() {
     const savedTheme = localStorage.getItem('theme');
 
