@@ -64,7 +64,7 @@ body {
     display: inline-block;
     padding: 12px 25px;
     background-color: rgba(18, 115, 241, 0.852);
-    color: white;
+    color: rgb(238, 255, 0);
     text-decoration: none;
     border-radius: 20px;
     font-weight: bold;

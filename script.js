@@ -29,6 +29,7 @@ function toggleTheme() {
     }
 }
 themeToggle.addEventListener('click', toggleTheme);
+
 function loadSavedTheme() {
     const savedTheme = localStorage.getItem('theme');
 
@@ -42,7 +43,7 @@ function loadSavedTheme() {
 }
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DomContentLoaded', loadSavedTheme);
+    document.addEventListener('DOMContentLoaded', loadSavedTheme);
 } else {
     loadSavedTheme();
 }
