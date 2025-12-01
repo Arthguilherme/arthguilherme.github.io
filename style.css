@@ -44,6 +44,8 @@ body {
 
 .social-media {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     margin-bottom: 30px;
 }
@@ -103,10 +105,10 @@ body {
   
 .card {
     text-align: center;
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(244, 244, 244);
 }
 #icones {
-    color: greenyellow;
+    color: green;
     font-size: 50px;
 }
 
@@ -115,7 +117,6 @@ body {
     text-align: center;
     color: white;
   }
-
   
 @media (max-width: 900px) {
     .home {

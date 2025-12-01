@@ -18,9 +18,9 @@ body.light-mode {
 body.light-mode h1 {
     color: black;
 }
-body.light-mode a{
+/*body.light-mode a{
     color: rgba(103, 103, 103, 0.381);
-}
+}*/
 
 body.light-mode h3{
     color: black;
@@ -30,7 +30,40 @@ body.light-mode home-content h1{
     color: wheat;
 }
 
-nav.light-mode {
+body.light-mode nav{
     background-color: #f5f5f5 !important ;
 }
+body.light-mode nav .nav-item{
+    color: black !important ;
+}
 
+body.light-mode nav .navbar-Nav{
+    color: black !important ;
+}
+body.light-mode .navbar {
+    background-color: #ffffff !important;
+}
+body.light-mode .navbar .nav-link {
+    color: #1B1B1B !important; 
+}
+
+body.light-mode .navbar .nav-link.active {
+    color: #1B57D0 !important; 
+}
+
+body.light-mode .navbar .nav-link:hover {
+    color: #28A745 !important; 
+}
+body.light-mode .card {
+    background-color: rgb(254, 255, 203) !important ;
+}
+body.light-mode .carrousel-item h1{
+    background-color:black !important ;
+}
+body.light-mode .carousel-control-prev-icon,
+body.light-mode .carousel-control-next-icon {
+    filter: invert(1); /* deixa elas pretinhas */
+}
+body.light-mode .social-media a {
+    color: black !important ;
+}

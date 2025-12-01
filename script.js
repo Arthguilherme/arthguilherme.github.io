@@ -2,9 +2,8 @@ const typed = new Typed(".multiple-text", {
     strings: [
         "Estudante de Analise e Desenvolvimento de Sistema",
         "Player de rpg de mesa",
-        "Mestre de RPG de Mesa",
         "Programador",
-        "Adramelach",
+        
         
     ],
     typeSpeed:100,
